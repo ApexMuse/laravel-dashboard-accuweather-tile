@@ -1,21 +1,21 @@
 <?php
 
-namespace Vendor\MyTile;
+namespace ApexMuse\LaravelDashboardAccuweatherTile;
 
-use ApexMuse\Dashboard\Models\Tile;
+use Spatie\Dashboard\Models\Tile;
 
-class MyStore
+class AccuweatherTileStore
 {
     private Tile $tile;
 
-    public static function make()
+    public static function make(): AccuweatherTileStore
     {
         return new static();
     }
 
     public function __construct()
     {
-        $this->tile = Tile::firstOrCreateForName("myTileName");
+        $this->tile = Tile::firstOrCreateForName("accuweather");
     }
 
     public function setData(array $data): self
