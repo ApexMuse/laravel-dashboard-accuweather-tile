@@ -17,9 +17,9 @@ class MyTileComponent extends Component
     
     public function render()
     {
-        return view('dashboard-skeleton-tile::tile', [
+        return view('dashboard-laravel-dashboard-accuweather-tile-tile::tile', [
             'myData' => MyStore::make()->getData(),
-            'refreshIntervalInSeconds' => config('dashboard.tiles.skeleton.refresh_interval_in_seconds') ?? 60,
+            'refreshIntervalInSeconds' => config('dashboard.tiles.laravel-dashboard-accuweather-tile.refresh_interval_in_seconds') ?? 60,
 
         ]);
     }

@@ -1,17 +1,17 @@
 {
-    "name": ":vendor/:package_name",
-    "description": ":package_description",
+    "name": "apexmuse/laravel-dashboard-accuweather-tile",
+    "description": "A tile for Spatie's Laravel Dashboard to display weather",
     "keywords": [
-        ":vendor",
-        ":package_name"
+        "ApexMuse",
+        "laravel-dashboard-accuweather-tile"
     ],
-    "homepage": "https://github.com/:vendor/:package_name",
+    "homepage": "https://github.com/ApexMuse/laravel-dashboard-accuweather-tile",
     "license": "MIT",
     "authors": [
         {
-            "name": ":author_name",
-            "email": ":author_email",
-            "homepage": "https://:vendor.be",
+            "name": "Todd Twiggs",
+            "email": "toddtwiggs@outlook.com",
+            "homepage": "https://github.com/ApexMuse",
             "role": "Developer"
         }
     ],
@@ -20,16 +20,16 @@
         "spatie/laravel-dashboard": "^2.0"
     },
     "require-dev": {
-        "phpunit/phpunit": "^9.3"
+        "phpunit/phpunit": "^9.0"
     },
     "autoload": {
         "psr-4": {
-            "Spatie\\MyTile\\": "src"
+            "ApexMuse\\MyTile\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Spatie\\MyTile\\Tests\\": "tests"
+            "ApexMuse\\MyTile\\Tests\\": "tests"
         }
     },
     "scripts": {
@@ -43,7 +43,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Spatie\\MyTile\\MyTileServiceProvider"
+                "ApexMuse\\MyTile\\MyTileServiceProvider"
             ]
         }
     },

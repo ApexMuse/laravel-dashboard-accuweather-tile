@@ -2,7 +2,7 @@
 
 namespace Vendor\MyTile;
 
-use Spatie\Dashboard\Models\Tile;
+use ApexMuse\Dashboard\Models\Tile;
 
 class MyStore
 {

@@ -1,6 +1,6 @@
 <?php
 
-namespace Spatie\MyTile\Tests;
+namespace ApexMuse\MyTile\Tests;
 
 use PHPUnit\Framework\TestCase;
 
